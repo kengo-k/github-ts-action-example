@@ -26,4 +26,4 @@ jobs:
       - name: Run my GitHub Action
         uses: ./ 
         with:
-          myInput: 'World'
+          myInput: 'Hello'
