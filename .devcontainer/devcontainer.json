@@ -1,0 +1,6 @@
+{
+  "name": "sample-github-ts-action",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "sample-github-ts-action",
+  "workspaceFolder": "/workspace"
+}

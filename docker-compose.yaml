@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  sample-github-ts-action:  
+    image: ghcr.io/kengo-k/dev-base-nodejs:202303201044-3c6e0ee
+    container_name: sample-github-ts-action
+    volumes:
+      - ./:/workspace
+      - $HOME/.ssh:/home/container-user/.ssh
+    working_dir: /workspace
+    tty: true
